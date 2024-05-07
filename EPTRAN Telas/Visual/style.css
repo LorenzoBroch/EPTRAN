@@ -1,0 +1,58 @@
+ /* TELA DE LOADING */
+ #bodyLoading{
+  display:flex;
+  justify-content: center;
+  background-color:#10346c
+ }
+
+ #LogoLoading {
+  width: 100%;
+  margin-top: 25vmax;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+ }
+
+ #LogoFaixaLoading {
+  height: 25vmax;
+  border-style: solid;
+  border-radius: 2vmax;
+  border-color: #ffffff;
+  border-width: 1vmin;
+  box-shadow: 1vmin;
+ }
+
+ #LoadingEPTRAN {
+  width:100%;
+  position:relative;
+  bottom:10vmax;
+ }
+
+  /* TELA DE LOGIN */
+
+#bodyLogin {
+    background-image: url("Imagens/tela_fundo_inteira.png");
+    color: white;
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cabecalho {
+  display: flex;
+}
+
+.joinville{
+  height: 25vmin;
+  width: auto;
+}
+
+.faixa{
+  height: 25vmin;
+  width: auto;
+}
+
+.listrado{
+  height: 20vmin;
+  width: auto;
+}
