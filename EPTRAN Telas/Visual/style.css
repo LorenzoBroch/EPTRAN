@@ -32,7 +32,6 @@
 
 #bodyLogin {
     background-image: url("Imagens/tela_fundo_inteira.png");
-    color: white;
     background-color: #cccc;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +40,9 @@
 .cabecalho {
   display: flex;
 }
-
+.form_section {
+  background-color: rgb(255, 239, 239);
+}
 .joinville{
   height: 25vmin;
   width: auto;
@@ -55,4 +56,9 @@
 .listrado{
   height: 20vmin;
   width: auto;
+  border-left: -1vmin;
+}
+
+.responsivo{
+  width: 100%;
 }
