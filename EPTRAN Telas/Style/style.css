@@ -1,0 +1,369 @@
+ /* TELA DE LOADING */
+ #bodyLoading{
+  background-color:#10346c;
+  margin:0;
+ }
+
+#joinville_loading{
+  height:20vmin;
+  position: absolute; left: 3vmin; top: 0;
+  margin-top: 2vmin;
+}
+
+ #eptran_loading {
+  height: 8vmin;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #LogoFaixaLoading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2vmin;
+  height: 15vmin;
+  border-style: solid;
+  border-color: #ffffff;
+ }
+
+ #LogoLoading {
+  margin-top:70%;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+
+
+
+  /* TELA DE LOGIN */
+
+#bodyLogin {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+    background-image: url("Imagens/tela_fundo_inteiraBLUR.jpg");
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.cabecalho {
+  background-color: rgba(0, 83, 151, 0.3);
+  color: white;
+  width: 100%;
+  display: flex;
+  padding: 1vmin;
+}
+
+#cabecalhoEPTRAN {
+  padding-left: 18vmin;
+  font-size: 8vmin;
+}
+
+#cadastroCabecalho {
+  margin-left:6%;
+  button {
+    height: 7vmin;
+    font-size: 3vmin;
+    color: #ffffff;
+    background-color: #10346c;
+    border-radius: 1vmin;
+    border-color: #797777;
+    margin-top: 7vmin;
+    width: 10vmax;
+  }
+}
+
+.form_section {
+  margin: 1vmin;
+  border-radius: 3%;
+  justify-content: center;
+  background-color: #e0e0e0;
+  height: 115vmin;
+  width: 100%;
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.joinville{
+  
+  height: 18vmin;
+  margin-top: 2vmin;
+  margin-left: 4vmin;
+  margin-bottom: 2vmin;
+  width: auto;
+}
+
+.faixa{
+  position: absolute;
+  height: 5vmin;
+  width: auto;
+  padding-top: 9vmin;
+  padding-left: 20vmin;
+}
+
+.responsivo{
+  width: 100%;
+}
+
+#faixaAmarelaLogin {
+  padding-top: 10vmin;  
+  width: 100%;
+  max-height: 10vmax;
+}
+
+#placaAmarelaLogin {
+  position:absolute;
+  padding-top:6vmin;
+  max-height: 20vmin;
+  width:100%;
+  max-width: 20vmin;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.logar{
+  margin-left: 6vmin;
+  height: 5vmax;
+  width: 19vmax;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-radius:1vmin ;
+  border-width: thin;
+  background-color:#d9d9d9;
+  cursor: pointer;
+  padding-right:28vmin;
+  margin-top: 4vmin;
+
+  font-size: 4vmin;
+  color: #797777;
+  
+  position: absolute;
+}
+#input_usuario {
+  margin-top: 4vmin;
+  width: 100%;
+  margin-bottom: 3vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  max-width: 60vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  height: 8vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin;
+  font-size: 3vmin;
+}
+  #input_senha {
+  margin-bottom: 3vmin;
+  font-size: 3vmin;
+  margin-top: 3vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  width: 100%;
+  max-width: 60vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  height: 8vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin; 
+}
+#EsqueciSenha {
+  text-decoration: underline;
+  font-size: 3vmin;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#13B7EB;
+  position: absolute;
+
+}
+.div_usuario {
+  color: rgb(128, 126, 126);
+}
+.div_senha {
+  color: rgb(128, 126, 126);
+  
+}
+
+#form_login{
+  padding:6vmin;
+}
+
+.img_Run{
+  position: absolute;
+  height: 36vmin;
+  width:auto;
+  padding-left: 40vmin;
+}
+
+#id_usuario,#id_senha{
+  font-size:4vmin ;
+}
+
+/* TELA DE CADASTRO aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+#bodyCadastro {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  background-image: url("Imagens/tela_fundoBLUR.jpg");
+  background-color: #cccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.form_section1 {
+  margin: 1vmin;
+  border-radius: 2vmin;
+  justify-content: center;
+  background-image: url("Imagens/cadastro_form.jpg");
+  background-size: 80vmin 165vmin;
+  background-repeat: no-repeat;
+  height: 160vmin;
+  width: 100%;
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_Walk{
+  height: 36vmin;
+  width:auto;
+  padding-left: 54vmin;
+}
+
+#input_email{
+  margin-top: 3vmin;
+  width: 100%;
+  margin-bottom: 3vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  max-width: 60vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  height: 9vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin;
+  font-size: 3vmin;
+}
+
+#input_usuario1{
+
+  margin-top: 3vmin;
+  width: 100%;
+  margin-bottom: 3vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  max-width: 60vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  height: 9vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin;
+  font-size: 3vmin;
+}
+
+#input_senha1{
+
+  margin-top: 3vmin;
+  width: 100%;
+  margin-bottom: 3vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  max-width: 60vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  height: 6vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin;
+  font-size: 3vmin;
+  
+}
+
+#input_confSenha{
+
+  margin-top: 3vmin;
+  width: 100%;
+  margin-bottom: 3vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  max-width: 60vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  height: 8vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin;
+  font-size: 3vmin;
+}
+
+#input_nascimento{
+  margin-top: 3vmin;
+  width: 100%;
+  height: 9vmin;
+  background-color: #d9d9d9;
+  border-color: #c9c9c9;
+  max-width: 40vmin;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1vmin;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width:thin;
+  font-size: 3vmin;
+  color: rgb(128, 126, 126);;
+}
+
+.criarConta{
+  height: 10vmin;
+  width: 60%;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-radius:1vmin ;
+  border-width: thin;
+  background-color:#d9d9d9;
+  cursor: pointer;
+  margin-top: 5vmin;
+  font-size: 5vmin;
+  color: #797777;
+}
+
+#bodyLogin1 {
+
+  overflow: hidden;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+    background-image: url("Imagens/tela_fundo_inteiraBLUR.jpg");
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#form_login1{
+  padding: 6vmin;
+
+}
+
+#id_nascimento{
+    color:rgb(128, 126, 126);
+  
+}
+
+.div_email, .div_senha1, .div_confSenha {
+  color: rgb(128, 126, 126); 
+}
+
+#buttonLogin{
+  background-color: #d9d9d9;
+}
