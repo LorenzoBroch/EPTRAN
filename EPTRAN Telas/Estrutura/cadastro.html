@@ -4,56 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Visual/style.css">
 </head>
-<body>
-    <header><!-- Parte de cima  -->
-
+<body id="bodyCadastro">    
+    <header class="cabecalho"><!-- Parte de cima  -->
         <img src="../Visual/Imagens/Joinville.png" class="joinville">
 
         <img src="../Visual/Imagens/Faixa_Pedrestre_logo.png" class="faixa">
+        
+        <h1 id="cabecalhoEPTRAN">EPTRAN</h1>
 
-        <h1></h1>
-        <div>
-            <p></p>
+        <div id="cadastroCabecalho">
+            <button>Login</button>
         </div>
     </header>
-    <section id=""> ><!-- Parte de cima  -->
-        <div>
-            <img src="../Visual/Imagens/homem_placa_amarelo.png" class="placa" class="responsivo">
-            <img src="../Visual/Imagens/faixa.png" class="listrado" class="responsivo">
+<br>
+<br>
+    <section class="form_section1"> <!--  Parte do Cadastro  -->
+        <div> <!--  header Cadastro  -->
+            <img id="placaAmarelaLogin" src="../Visual/Imagens/homem_placa_amarelo.png" class="placa">
+            <img id="faixaAmarelaLogin" src="../Visual/Imagens/faixa.png" class="listrado">
         </div>
         
-        <form action="post" class="responsivo">
-            <div> ><!-- Usuário  -->
-                <label for="usuario">Usuário</label>
-                <input type="text" id="usuario" name="usuario" required>
+        <form action="" id="form_login1">
+            <div class="div_usuario">  <!--  Usuário  -->
+                <label id="id_usuario" for="usuario">Usuário</label>
+                <div>
+                    <input id="input_usuario1" type="text" placeholder="Insira o nome do usuário">
+                </div>
             </div>
+            <div class="div_email">  <!--  Email  -->
+                <label id="id_email" for="senha">Email</label>
+                <div>
+                    <input id="input_email" type="text" id="email" name="email" placeholder="Insira seu Email">
+                </div>
+            </div>
+            <div class="div_senha1">  <!--  Senha  -->
+                <label id="id_senha" for="senha">Senha</label>
+                <div>
+                    <input id="input_senha" type="password" id="senha" name="senha" placeholder="Insira sua senha">
+                </div>
+            </div>
+            <div class="div_confSenha">  <!--  Confirmar Senha  -->
+                <label id="id_confSenha" for="confSenha">Confirmar Senha</label>
+                <div>
+                    <input id="input_confSenha" type="password" id="confSenha" name="confSenha" placeholder="Confirme sua senha">
+                </div>
 
-            <div> <!-- Email  -->
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>        
-            
-            <div> <!-- Senha  -->
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" required>
+                <label id="id_nascimento" for="nascimento">Digite sua data de nascimento</label>
+                <div>
+                    <input id="input_nascimento" type="date" id="nascimento" name="nascimento" placeholder="Confirme sua senha">
+                </div>
+                <div>
+                    <button class="criarConta">Criar Conta</button>  <!--  Comfirmar  -->
+                </div>
             </div>
-
-            <div> <!-- Comfirmar Senha  -->
-                <label for="comfirmar_senha">Confirmar Senha</label>
-                <input type="password" id="confirmar_senha" name="comfirmar_senha" required>
-            </div>
-
-            <div> <!-- Data de Nascimento  -->
-                <label for="data_nascimento">Data de Nascimento</label>
-                <input type="date" id="data_nascimento" name="data_nascimento" required>
-            </div>
-        </form>
-        <div>
-            <button class="responsivo"></button> <!--  Criar Conta  -->
-        </div>
-        <img src="">
+        </form>  
+        
+        <img src="../Visual/Imagens/homem_andando.png" class="img_Walk">     
     </section>
 </body>
 </html>

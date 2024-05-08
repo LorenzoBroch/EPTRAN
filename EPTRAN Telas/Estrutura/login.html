@@ -13,34 +13,41 @@
 
         <img src="../Visual/Imagens/Faixa_Pedrestre_logo.png" class="faixa">
         
-        <h1>EPTRAN</h1>
+        <h1 id="cabecalhoEPTRAN">EPTRAN</h1>
 
-        <div>
-            <button></button>
+        <div id="cadastroCabecalho">
+            <button>Cadastro</button>
         </div>
     </header>
-
+<br>
+<br>
     <section class="form_section"> <!--  Parte do Login  -->
         <div> <!--  header Login  -->
             <img id="placaAmarelaLogin" src="../Visual/Imagens/homem_placa_amarelo.png" class="placa">
             <img id="faixaAmarelaLogin" src="../Visual/Imagens/faixa.png" class="listrado">
         </div>
         
-        <form action="">
-            <div>  <!--  Usuário  -->
-                <label for="usuario">Usuário</label>
-                <input type="text">
+        <form action="" id="form_login">
+            <div class="div_usuario">  <!--  Usuário  -->
+                <label id="id_usuario" for="usuario">Usuário</label>
+                <div>
+                    <input id="input_usuario" type="text" placeholder="Insira o nome do usuário">
+                </div>
             </div>
-            <div>  <!--  Senha  -->
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha">
-                <p></p>
+            <div class="div_senha">  <!--  Senha  -->
+                <label id="id_senha" for="senha">Senha</label>
+                <div>
+                    <input id="input_senha" type="password" id="senha" name="senha" placeholder="Insira sua senha">
+                </div>
+            </div>
+            <div id="EsqueciSenha">
+                <p>Esqueci minha senha</p>
             </div>
         </form>  
         <div>
-            <button>Logar</button>  <!--  Comfirmar  -->
+            <button class="logar">Confirmar</button>  <!--  Comfirmar  -->
         </div>
-        <img src="">     
+        <img src="../Visual/Imagens/homem_correndo.png" class="img_Run">     
     </section>
 </body>
 </html>
