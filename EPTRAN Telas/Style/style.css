@@ -1,5 +1,6 @@
  /* TELA DE LOADING */
  #bodyLoading{
+  width: 100%;
   background-color:#10346c;
   margin:0;
  }
@@ -33,6 +34,37 @@
   font-family:Arial, Helvetica, sans-serif;
  }
 
+ #BotoesLoading {
+  position: absolute;
+  margin-top: 10vmax;
+  width: 100%;
+  text-align: center;
+  p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vmin;
+  };
+ }
+
+ #EntrarLoading {
+  border-color: white;
+  border-radius: 10%;
+  color: white;
+  width: 10vmax;
+  height: 7vmin;
+  font-size: 3vmin;
+  background-color:#1c4992
+ }
+
+ #CadastroLoading {
+  border-color: white;
+  border-radius: 10%;
+  color: white;
+  width: 15vmax;
+  height: 7vmin;
+  font-size: 3vmin;
+  background-color:#1c4992
+ }
 
 
   /* TELA DE LOGIN */
@@ -96,7 +128,7 @@
   width: auto;
 }
 
-.faixa{
+.faixa{                  
   position: absolute;
   height: 5vmin;
   width: auto;
@@ -366,4 +398,88 @@
 
 #buttonLogin{
   background-color: #d9d9d9;
+}
+
+/* TELA INICIAL --------------------------------------------------------------------------- */
+
+
+
+#bodyTelaInicial {
+  background-color: #10346c;
+  color: white;
+}
+
+.tela_inicial {
+  display: flex;
+}
+#texto_tela_inicial {
+  background-color: rgb(228, 221, 221);
+  width: 100%;
+  max-width: 80vmin;
+  height: 100vmin;
+  max-height: 50vmin;
+  border-radius: 3vmin;
+  opacity: 0.6;
+  color: black;
+}
+#inicial_cabecalho{
+  background-image: url(Imagens/fundo_telainicial.png);
+  background-size: 130vmin auto;
+  background-repeat: no-repeat;
+  
+  box-shadow: 0vmin 3vmin 3px  #304a71;
+}
+#bodyTelaInicial{
+  margin: 0px;
+}
+
+#eptranLogoHeader{
+  width:100%;
+  max-width: 40%;
+  height: 10vmin;
+  padding-top: 9%;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#botoesHeaderTI {
+  position: absolute;
+  
+}
+
+#botao_login_inicio{
+    height: 7vmin;
+    font-size: 3vmin;
+    color: #ffffff;
+    background-color: #10346c;
+    border-radius: 1vmin;
+    border-color: #797777;
+    width: 5vmax;
+    margin-left: -1vmin;
+    margin-top: -10vmin;
+}
+
+#botao_cadastro_inicio{
+  height: 7vmin;
+  font-size: 3vmin;
+  color: #ffffff;
+  background-color: #10346c;
+  border-radius: 1vmin;
+  border-color: #797777;
+  margin-top: -7vmin;
+  width: 8vmax;
+}
+
+.BotoesSeries {
+  height: 9vmin;
+}
+.id_section_texto {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.border{
+  border: 5px solid black;
 }
