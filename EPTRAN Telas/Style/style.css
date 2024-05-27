@@ -7,25 +7,34 @@
 
 #joinville_loading{
   height:20vmin;
-  position: absolute; left: 3vmin; top: 0;
+  position: absolute;top: 2vmin;
   margin-top: 2vmin;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
  #eptran_loading {
-  height: 8vmin;
-  display: block;
+  position: absolute;
+  height: 10vmin;
   margin-left: auto;
   margin-right: auto;
- }
+  left: 0;
+  right: 0;
+  padding-top: 9vmin;
+}
 
  #LogoFaixaLoading {
+  position:absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 2vmin;
-  height: 15vmin;
-  border-style: solid;
-  border-color: #ffffff;
+  height: 21vmin;
+  left: 0; 
+  right: 0; 
+
  }
 
  #LogoLoading {
@@ -35,35 +44,31 @@
  }
 
  #BotoesLoading {
-  position: absolute;
-  margin-top: 10vmax;
+  display: grid;
+  margin-top: 15vmax;
   width: 100%;
   text-align: center;
-  p {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5vmin;
-  };
  }
 
  #EntrarLoading {
-  border-color: white;
-  border-radius: 10%;
-  color: white;
-  width: 10vmax;
+  border-color: rgb(255, 255, 255);
+  border-radius: 1vmin;
+  border-width: 1px;
+  color: #ffffff;
   height: 7vmin;
+  width: 20vmax;
   font-size: 3vmin;
-  background-color:#1c4992
- }
+  background-color:#1c4992;
+ } 
 
  #CadastroLoading {
-  border-color: white;
-  border-radius: 10%;
-  color: white;
-  width: 15vmax;
+  text-decoration: underline;
+  color: rgb(0, 119, 255);
+  width: 30vmax;
   height: 7vmin;
   font-size: 3vmin;
-  background-color:#1c4992
+  background-color: transparent;
+  border:none;
  }
 
 
@@ -397,7 +402,7 @@
 }
 
 #buttonLogin{
-  background-color: #d9d9d9;
+  background-color: #ffffff;
 }
 
 /* TELA INICIAL --------------------------------------------------------------------------- */
@@ -412,7 +417,7 @@
 .tela_inicial {
   display: flex;
 }
-#texto_tela_inicial {
+#texto_tela_inicial { 
   background-color: rgb(228, 221, 221);
   width: 100%;
   max-width: 80vmin;
