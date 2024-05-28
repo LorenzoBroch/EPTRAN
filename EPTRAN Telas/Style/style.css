@@ -1,69 +1,82 @@
- /* TELA DE LOADING */
+.cabecalhoLogocadastro{
+  width: 100%;
+  max-width: 30%;
+  height: 20vmin;
+  padding-left: 15vmin;
+}
+
+.cabecalhoLogoinicial{
+  width: 100%;
+  max-width: 30%;
+  height: 20vmin;
+  padding-left: 1vmin;
+}
+
+
+/* TELA DE LOADING */
  #bodyLoading{
   width: 100%;
-  background-color:#10346c;
+  background-color:#023859;
   margin:0;
  }
 
 #joinville_loading{
-  height:20vmin;
-  position: absolute; left: 3vmin; top: 0;
-  margin-top: 2vmin;
+  height:40vmin;
+  width: 100%;
+  max-width: 80%;
+  position: absolute;bottom: 10vmin;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
  #eptran_loading {
-  height: 8vmin;
-  display: block;
+  position: absolute;top: 60vmin;
+  height: 40vmin;
   margin-left: auto;
   margin-right: auto;
- }
-
- #LogoFaixaLoading {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2vmin;
-  height: 15vmin;
-  border-style: solid;
-  border-color: #ffffff;
- }
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 60%;
+}
 
  #LogoLoading {
+  width: 100%;
   margin-top:70%;
-  color:white;
+  color:#f2f2f2;
   font-family:Arial, Helvetica, sans-serif;
  }
 
  #BotoesLoading {
+  display: grid;
   position: absolute;
-  margin-top: 10vmax;
+  margin-top: 27vmin;
   width: 100%;
   text-align: center;
-  p {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5vmin;
-  };
  }
 
  #EntrarLoading {
-  border-color: white;
-  border-radius: 10%;
-  color: white;
-  width: 10vmax;
+  border-color: rgb(255, 255, 255);
+  border-radius: 1vmin;
+  border-width: 1px;
+  color: #023859;
   height: 7vmin;
+  width: 100%;
+  max-width: 47%;
   font-size: 3vmin;
-  background-color:#1c4992
- }
+  background-color:#f2f2f2;
+ } 
 
  #CadastroLoading {
-  border-color: white;
-  border-radius: 10%;
-  color: white;
-  width: 15vmax;
+  text-decoration: underline;
+  color: rgb(0, 119, 255);
+  width: 100%;
   height: 7vmin;
   font-size: 3vmin;
-  background-color:#1c4992
+  background-color: transparent;
+  border:none;
  }
 
 
@@ -98,7 +111,7 @@
     height: 7vmin;
     font-size: 3vmin;
     color: #ffffff;
-    background-color: #10346c;
+    background-color: #023859;
     border-radius: 1vmin;
     border-color: #797777;
     margin-top: 7vmin;
@@ -397,22 +410,20 @@
 }
 
 #buttonLogin{
-  background-color: #d9d9d9;
+  background-color: #ffffff;
 }
 
 /* TELA INICIAL --------------------------------------------------------------------------- */
 
-
-
 #bodyTelaInicial {
-  background-color: #10346c;
+  background-color: #023859;
   color: white;
 }
 
 .tela_inicial {
   display: flex;
 }
-#texto_tela_inicial {
+#texto_tela_inicial { 
   background-color: rgb(228, 221, 221);
   width: 100%;
   max-width: 80vmin;
@@ -421,26 +432,17 @@
   border-radius: 3vmin;
   opacity: 0.6;
   color: black;
+  margin-left: 10vmin;
 }
 #inicial_cabecalho{
   background-image: url(Imagens/fundo_telainicial.png);
   background-size: 130vmin auto;
   background-repeat: no-repeat;
-  
-  box-shadow: 0vmin 3vmin 3px  #304a71;
+  box-shadow: 0vmin 3vmin 3px#023859;
+  /*box-shadow: 0vmin 3vmin 3px  #304a71;*/
 }
 #bodyTelaInicial{
   margin: 0px;
-}
-
-#eptranLogoHeader{
-  width:100%;
-  max-width: 40%;
-  height: 10vmin;
-  padding-top: 9%;
-  place-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #botoesHeaderTI {
@@ -449,31 +451,37 @@
 }
 
 #botao_login_inicio{
-    height: 7vmin;
+    height: 7vmin; 
     font-size: 3vmin;
     color: #ffffff;
-    background-color: #10346c;
+    background-color: #023859;
     border-radius: 1vmin;
     border-color: #797777;
     width: 5vmax;
-    margin-left: -1vmin;
-    margin-top: -10vmin;
+    margin-left: 1vmin;
 }
 
 #botao_cadastro_inicio{
   height: 7vmin;
   font-size: 3vmin;
   color: #ffffff;
-  background-color: #10346c;
+  background-color: #023859;
   border-radius: 1vmin;
   border-color: #797777;
   margin-top: -7vmin;
   width: 8vmax;
 }
 
-.BotoesSeries {
+.BotoesSeriesImagens {
   height: 9vmin;
+  width: 100%;
+  margi
 }
+.BotoesSeries {
+  background-color:transparent;
+  border-style: none;
+}
+
 .id_section_texto {
   text-align: center;
   align-content: center;
@@ -483,3 +491,15 @@
 .border{
   border: 5px solid black;
 }
+
+.ImagensPreviewTI {
+  padding: 5%;
+  width: 100%;
+  max-width: 40%;
+  height: 10%;
+}
+
+#AbasImagensTI {
+  display:flex;
+}
+
