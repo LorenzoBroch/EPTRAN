@@ -1,14 +1,23 @@
- /* TELA DE LOADING */
+.cabecalhoLogo {
+  padding-left: 10vmin;
+  width: 100%;
+  max-width: 50%;
+  height: 20vmin;
+}
+
+
+/* TELA DE LOADING */
  #bodyLoading{
   width: 100%;
-  background-color:#10346c;
+  background-color:#023859;
   margin:0;
  }
 
 #joinville_loading{
-  height:20vmin;
-  position: absolute;top: 2vmin;
-  margin-top: 2vmin;
+  height:40vmin;
+  width: 100%;
+  max-width: 80%;
+  position: absolute;bottom: 10vmin;
   left: 0; 
   right: 0; 
   margin-left: auto; 
@@ -16,36 +25,27 @@
 }
 
  #eptran_loading {
-  position: absolute;
-  height: 10vmin;
+  position: absolute;top: 60vmin;
+  height: 40vmin;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  padding-top: 9vmin;
+  width: 100%;
+  max-width: 60%;
 }
 
- #LogoFaixaLoading {
-  position:absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2vmin;
-  height: 21vmin;
-  left: 0; 
-  right: 0; 
-
- }
-
  #LogoLoading {
+  width: 100%;
   margin-top:70%;
-  color:white;
+  color:#f2f2f2;
   font-family:Arial, Helvetica, sans-serif;
  }
 
  #BotoesLoading {
   display: grid;
-  margin-top: 15vmax;
+  position: absolute;
+  margin-top: 27vmin;
   width: 100%;
   text-align: center;
  }
@@ -54,17 +54,18 @@
   border-color: rgb(255, 255, 255);
   border-radius: 1vmin;
   border-width: 1px;
-  color: #ffffff;
+  color: #023859;
   height: 7vmin;
-  width: 20vmax;
+  width: 100%;
+  max-width: 47%;
   font-size: 3vmin;
-  background-color:#1c4992;
+  background-color:#f2f2f2;
  } 
 
  #CadastroLoading {
   text-decoration: underline;
   color: rgb(0, 119, 255);
-  width: 30vmax;
+  width: 100%;
   height: 7vmin;
   font-size: 3vmin;
   background-color: transparent;
@@ -103,7 +104,7 @@
     height: 7vmin;
     font-size: 3vmin;
     color: #ffffff;
-    background-color: #10346c;
+    background-color: #023859;
     border-radius: 1vmin;
     border-color: #797777;
     margin-top: 7vmin;
@@ -407,10 +408,8 @@
 
 /* TELA INICIAL --------------------------------------------------------------------------- */
 
-
-
 #bodyTelaInicial {
-  background-color: #10346c;
+  background-color: #023859;
   color: white;
 }
 
@@ -426,13 +425,14 @@
   border-radius: 3vmin;
   opacity: 0.6;
   color: black;
+  margin-left: 10vmin;
 }
 #inicial_cabecalho{
   background-image: url(Imagens/fundo_telainicial.png);
   background-size: 130vmin auto;
   background-repeat: no-repeat;
-  
-  box-shadow: 0vmin 3vmin 3px  #304a71;
+  box-shadow: 0vmin 3vmin 3px#023859;
+  /*box-shadow: 0vmin 3vmin 3px  #304a71;*/
 }
 #bodyTelaInicial{
   margin: 0px;
@@ -440,12 +440,12 @@
 
 #eptranLogoHeader{
   width:100%;
-  max-width: 40%;
-  height: 10vmin;
-  padding-top: 9%;
-  place-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 35%;
+  height: 35%;
+  padding-bottom: 80vmin;
+  padding-left: 35vmin;
+
+  
 }
 
 #botoesHeaderTI {
@@ -457,28 +457,41 @@
     height: 7vmin;
     font-size: 3vmin;
     color: #ffffff;
-    background-color: #10346c;
+    background-color: #023859;
     border-radius: 1vmin;
     border-color: #797777;
     width: 5vmax;
     margin-left: -1vmin;
-    margin-top: -10vmin;
+    
 }
+#BotoesSeriesGerais{
+  width: 35vmin;
+  padding-top: 3vmin;
+  display: flex;
+}
+
 
 #botao_cadastro_inicio{
   height: 7vmin;
   font-size: 3vmin;
   color: #ffffff;
-  background-color: #10346c;
+  background-color: #023859;
   border-radius: 1vmin;
   border-color: #797777;
   margin-top: -7vmin;
   width: 8vmax;
 }
 
-.BotoesSeries {
+.BotoesSeriesImagens {
   height: 9vmin;
+  width: 9vmin;
+  margin-right: -3vmin;
 }
+.BotoesSeries {
+  background-color:transparent;
+  border-style: none;
+}
+
 .id_section_texto {
   text-align: center;
   align-content: center;
@@ -487,4 +500,15 @@
 
 .border{
   border: 5px solid black;
+}
+
+.ImagensPreviewTI {
+  padding: 5%;
+  width: 100%;
+  max-width: 40%;
+  height: 10%;
+}
+
+#AbasImagensTI {
+  display:flex;
 }
