@@ -9,7 +9,7 @@
   width: 100%;
   max-width: 30%;
   height: 20vmin;
-  padding-left: 1vmin;
+  padding-left: min;
 }
 
 
@@ -475,7 +475,7 @@
 .BotoesSeriesImagens {
   height: 9vmin;
   width: 100%;
-  margi
+  margin-left: 3vmin;
 }
 .BotoesSeries {
   background-color:transparent;
