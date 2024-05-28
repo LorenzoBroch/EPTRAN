@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cabecalhoLogocadastro{
   width: 100%;
   max-width: 30%;
@@ -10,6 +11,13 @@
   max-width: 30%;
   height: 20vmin;
   padding-left: min;
+=======
+.cabecalhoLogo {
+  padding-left: 10vmin;
+  width: 100%;
+  max-width: 50%;
+  height: 20vmin;
+>>>>>>> f398f731382e5dbeae3b6cc10acba2a4238b0728
 }
 
 
@@ -445,6 +453,19 @@
   margin: 0px;
 }
 
+<<<<<<< HEAD
+=======
+#eptranLogoHeader{
+  width:100%;
+  max-width: 35%;
+  height: 35%;
+  padding-bottom: 80vmin;
+  padding-left: 35vmin;
+
+  
+}
+
+>>>>>>> f398f731382e5dbeae3b6cc10acba2a4238b0728
 #botoesHeaderTI {
   position: absolute;
   
@@ -458,8 +479,19 @@
     border-radius: 1vmin;
     border-color: #797777;
     width: 5vmax;
+<<<<<<< HEAD
     margin-left: 1vmin;
+=======
+    margin-left: -1vmin;
+    
+>>>>>>> f398f731382e5dbeae3b6cc10acba2a4238b0728
 }
+#BotoesSeriesGerais{
+  width: 35vmin;
+  padding-top: 3vmin;
+  display: flex;
+}
+
 
 #botao_cadastro_inicio{
   height: 7vmin;
@@ -474,8 +506,13 @@
 
 .BotoesSeriesImagens {
   height: 9vmin;
+<<<<<<< HEAD
   width: 100%;
   margin-left: 3vmin;
+=======
+  width: 9vmin;
+  margin-right: -3vmin;
+>>>>>>> f398f731382e5dbeae3b6cc10acba2a4238b0728
 }
 .BotoesSeries {
   background-color:transparent;
@@ -501,5 +538,9 @@
 
 #AbasImagensTI {
   display:flex;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> f398f731382e5dbeae3b6cc10acba2a4238b0728
