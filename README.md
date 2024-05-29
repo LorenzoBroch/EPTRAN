@@ -1,5 +1,8 @@
 # <h1 align="center"> 🚗🎒 Aplicativo de Aprendizagem no Trânsito 🛑🚗 </h1>
-![image](https://github.com/LorenzoBroch/EPTRAN/assets/160625132/ba2fb952-658a-4310-9c0d-619f1735e095)
+<div align="center">
+  <img src="https://cdn-icons-png.flaticon.com/256/5599/5599482.png">
+</div>
+
 # Descrição
 Este é um projeto em desenvolvimento que visa criar um aplicativo de aprendizagem no trânsito para alunos do ensino fundamental & ensino médio.
 
