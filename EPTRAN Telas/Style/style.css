@@ -1,17 +1,3 @@
-.cabecalho-logo-cadastro{
-  width: 100%;
-  max-width: 30%;
-  height: 20vmin;
-  padding-left: 14.5vmin;
-  margin-left: 3vmin;
-}
-
-.cabecalho-logo-inicial{
-  width: 100%;
-  max-width: 30%;
-  height: 20vmin;
-}
-
 
 /* TELA DE LOADING */
  #body-loading{
@@ -92,6 +78,32 @@
     background-attachment: fixed;
 
 }
+
+.cabecalho-logo-cadastro{
+  width: 100%;
+  max-width: 30%;
+  height: 20vmin;
+  
+}
+
+.cabecalho-logo-inicial{
+  position: absolute;
+  width: 100%;
+  max-width: 32%;
+  height: auto;
+
+}
+
+.cabecalho-logo-inicial-login{
+  margin-left: 12%; 
+  margin-right: 12%; 
+  padding-left: 3%;
+  width: 100%;
+  max-width: 35%;
+  height: 25vmin;
+}
+
+
 .cabecalho {
   background-color: rgba(0, 83, 151, 0.3);
   color: white;
@@ -100,22 +112,22 @@
   padding: 1vmin;
 }
 
-#cabecalhoEPTRAN {
+#cabecalho-eptran {
   padding-left: 18vmin;
   font-size: 8vmin;
 }
 
 #cadastro-cabecalho {
-  margin-left:9%;
   button {
-    height: 7vmin;
+    height: 8vmin;
+    max-width: 40vmax;
     font-size: 3vmin;
     color: #ffffff;
     background-color: #023859;
     border-radius: 1vmin;
     border-color: #797777;
-    margin-top: 7vmin;
-    width: 10vmax;
+    margin-top: 50%;
+    width: 100%;
   }
 }
 
@@ -189,7 +201,7 @@
   
   position: absolute;
 }
-#input_usuario {
+#input-usuario {
   margin-top: 4vmin;
   width: 100%;
   margin-bottom: 3vmin;
@@ -219,7 +231,11 @@
   border-style: solid;
   border-width:thin; 
 }
-#EsqueciSenha {
+#esqueci-senha {
+  border-color: transparent;
+  background-color: transparent;
+  width: 100%;
+  max-width: 60%;
   text-decoration: underline;
   font-size: 3vmin;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -230,12 +246,12 @@
 .div-usuario {
   color: rgb(128, 126, 126);
 }
-.div_senha {
+.div-senha {
   color: rgb(128, 126, 126);
   
 }
 
-#form_login{
+#form-login{
   padding:6vmin;
 }
 
@@ -317,7 +333,7 @@
   font-size: 3vmin;
 }
 
-#input_senha1{
+#input-senha1{
 
   margin-top: 3vmin;
   width: 100%;
@@ -427,65 +443,79 @@
   display: flex;
 }
 #texto-tela-inicial { 
-  background-color: rgb(228, 221, 221);
+  background-color: #f2f2f2;
   width: 100%;
-  max-width: 80vmin;
+  max-width: 85vmin;
   height: 100vmin;
   max-height: 50vmin;
   border-radius: 3vmin;
   opacity: 0.6;
   color: black;
-  margin-left: 10vmin;
+  margin-left: 8vmin;
 }
 #inicial-cabecalho{
   background-image: url(Imagens/fundo_telainicial.png);
-  background-size: 130vmin auto;
+  background-size: 130vmin;
   background-repeat: no-repeat;
-  box-shadow: 0vmin 3vmin 3px#023859;
-  /*box-shadow: 0vmin 3vmin 3px  #304a71;*/
+  padding-bottom: 17vmin;
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 70%, transparent 100%);
+ 
+  /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+      box-shadow: 0vmin 3vmin 3px  #304a71;*/
 }
 #bodyTelaInicial{
   margin: 0px;
 }
 
-#botoesHeaderTI {
-  position: absolute;
-  
-}
-
-#botao-login-inicio{
-    height: 7vmin; 
-    font-size: 3vmin;
-    color: #ffffff;
-    background-color: #023859;
-    border-radius: 1vmin;
-    border-color: #797777;
-    width: 5vmax;
+#botao-login-inicio{   
+  position: absolute;right: 19vmin;top: 7vmin;
+  font-size: 3vmin;
+  color: whitesmoke;
+  background-color: #023859;
+  border-radius: 1vmin;
+  border-color: whitesmoke;
+  border-style: solid;
+  width: 100%;
+  height:7vmin;
+  max-width: 16%;
+  border-width:2px;
 }
 
 #botao-cadastro-inicio{
+  position: absolute;right: 2vmin;top: 7vmin;
   height: 7vmin;
   font-size: 3vmin;
-  color: #ffffff;
+  color: whitesmoke;
   background-color: #023859;
   border-radius: 1vmin;
-  border-color: #797777;
-  width: 8vmax;
+  border-color: whitesmoke;
+  border-style: solid;
+  width: 100%;
+  max-width: 16%;
+  border-width:2px;
+}
+
+#botao-cadastro-verde{
+  margin-left: 2vmin;
 }
 
 .botoes-series-imagens {
-  height: 8vmin;
-  width: 100%;
-  max-width: 90%;
+  height: 10vmin;
+  height: 100%;
+  max-width: 10vmin;
+  padding-top: 6vmin;
 }
 .botoes-series {
+  padding: 0;
   max-width: 15vmin;
   background-color:transparent;
   border-style: none;
 }
 
 .id-section-texto {
-  text-align: center;
+  padding-top: 3vmin;
+  width: 100%;
   align-content: center;
   align-items: center;
 }
@@ -494,19 +524,56 @@
   border: 5px solid black;
 }
 
-.imagens-preview-ti {
-  padding: 5%;
-  width: 100%;
-  max-width: 40%;
-  height: 10%;
+#texto-conheca{
+  Text-align: center;
+  color:whitesmoke;
+  font-size: 5vmin;
+  margin-bottom: 7vmin;
 }
 
-#abas-imagens-ti {
-  display:flex;
+#texto-oque-somos{
+  font-family:fantasy;
+  width: fit-content;
+  padding-left: 10vmin;
+  -webkit-text-stroke-width: 0.001em;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
 }
+
+.imagens-preview-ti {
+  width: 100%;
+  max-width: 70%;
+  height: 10%;
+  border-width: 2px;
+  border-color: rgb(255, 233, 233);
+  border-style: solid;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+  border-radius: 2vmin;
+  margin-bottom: 5vmin;
+}  
 
 #inicial-sec {
   h1 {
-    margin: 3%;
+    
   }
+}
+
+/* SERIES INICIAIS ----------------------------------------------------------------------------------------------------------------*/
+
+#body-series-iniciais {
+  margin: 0;
+  color: white;
+  background-image: url(Imagens/background_series_iniciais.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#series-iniciais_cabecalho {
+  background-color: #023859;
+  display: flex;
+  }
+
+#video1 {
+  width: 100%;
+  max-width: 50%; 
 }
