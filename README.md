@@ -9,6 +9,6 @@ O sistema será separado em páginas, onde cada usuário será redirecicionado p
 <h3 align="center">
  (https://github.com/LorenzoBroch) 
 |(https://github.com/Matupinhos)     
- (https://github.com/MACHOMANO)    
+| (https://github.com/MACHOMANO)    
 |(https://github.com/RuanVMartins)
 </h3>
