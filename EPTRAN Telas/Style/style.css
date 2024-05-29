@@ -504,3 +504,9 @@
 #abas-imagens-ti {
   display:flex;
 }
+
+#inicial-sec {
+  h1 {
+    margin: 3%;
+  }
+}
