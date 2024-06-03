@@ -2,9 +2,9 @@
 /* TELA DE LOADING */
  #body-loading{
   width: 100%;
-  background-color:#023859;
   margin:0;
  }
+
 
 #joinville-loading{
   height:40vmin;
@@ -479,7 +479,23 @@
   width: 100%;
   height:7vmin;
   max-width: 16%;
-  border-width:2px;
+  border-width:1px;
+}
+
+#acessibilidade-icon {
+  position: absolute;top: 20vmin;right: 0;
+  position: fixed;
+  width:100%;
+  height: 100%;
+  max-height: 30px;
+  max-width: 30px;
+  background-color: yellow;
+  background-image: url(../Style/Imagens/acessibilidade_icone.png);
+  background-size: cover;
+}
+
+#acessibilidade-div{
+  
 }
 
 #botao-cadastro-inicio{
@@ -493,7 +509,7 @@
   border-style: solid;
   width: 100%;
   max-width: 16%;
-  border-width:2px;
+  border-width:1px;
 }
 
 #botao-cadastro-verde{
@@ -527,7 +543,8 @@
 #texto-conheca{
   Text-align: center;
   color:whitesmoke;
-  font-size: 5vmin;
+  font-size: 8vmin;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-bottom: 7vmin;
 }
 
@@ -554,18 +571,20 @@
 }  
 
 #inicial-sec {
-  h1 {
-    
-  }
 }
 
 /* SERIES INICIAIS ----------------------------------------------------------------------------------------------------------------*/
+
+#SectionBacground{
+  background-image:;
+}
 
 #body-series-iniciais {
   margin: 0;
   color: white;
   background-image: url(Imagens/background_series_iniciais.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 #series-iniciais_cabecalho {
@@ -575,5 +594,108 @@
 
 #video1 {
   width: 100%;
-  max-width: 50%; 
+  max-width: 80%;
+  height: 55vmin; 
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+  border: 10px solid;
+  border-image:url(Imagens/corda.png) 35;
+  border-image-repeat: stretch;
+}
+
+.texto-iniciais{
+  font-size:5vmin;
+  margin-left: 10vmin;
+  color: black;
+  border: 2px;
+  border-color: black;
+}
+
+#iniciais-sec{
+  margin-top: 15vmin;
+  font {
+    -webkit-text-stroke-width: 0.04em;
+    -webkit-text-stroke-color: rgb(49, 49, 49);
+  }
+}
+
+/* SERIES FINAIS ----------------------------------------------------------------------------------------------------------------*/
+
+#bodySeriesFinais {
+  margin: 0;
+  background-image: url(../Style/Imagens/estrada_fundo_icon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#cabecalho-series-finais {
+  background-color: #023859;
+
+}
+
+.OpcoesHeader{
+  display:flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 7vmin;
+  left: 65vmin;
+  width: 100%;
+  max-width: 30vmin;
+}
+
+.downloadIcone {
+  position: relative;
+  background-image: url(../Style/Imagens/download_icon.png);
+  background-size: cover;
+  padding: 5;
+  max-width: 15vmin;
+  height: 5vmin;
+  width:100%;
+  max-width: 5vmin;
+  background-color:transparent;
+  border-style: none;
+}
+
+#VideoExemplo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.Apostila {
+  width:100%;
+  max-width: 15vmin;
+  background-color:transparent;
+  margin-right: 5vmin;
+  border-style: none;
+  color: white;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.UsuarioHeader {
+  position: relative;
+  background-image: url(../Style/Imagens/usuario_icone.png);
+  background-size: cover;
+  height: 6vmin;
+  width:100%;
+  max-width: 5vmin;
+  background-color:transparent;
+  border-style: none;
+}
+
+#div-video-principal {
+  display: flex;
+  justify-content: center;
+  iframe {
+    height: 100%;
+    max-height: 50vmin;
+    max-width: 80vmin;
+    width: 100%;
+  }
+}
+#outros-videos {
+  text-align: center;
 }

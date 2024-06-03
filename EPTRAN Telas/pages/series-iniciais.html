@@ -9,30 +9,35 @@
     <link rel="stylesheet" href="../Style/style.css">
     
 <body id="body-series-iniciais">
-    <section class="cabecalho-tela-inicial"> <!-- Cabeçalho-->
+    <section id="cabecalho-series-finais"> <!-- Cabeçalho-->
         <button class="botoes-series">
             <img class="botoes-series-imagens" id="botao-cadastro-verde" src="../Style/Imagens/botao_verde.png" alt=""></button>
         <button class="botoes-series">
             <img class="botoes-series-imagens" src="../Style/Imagens/botao_amarelo.png" alt=""></button>
         <button class="botoes-series">
             <img class="botoes-series-imagens" src="../Style/Imagens/botao_vermelho.png" alt=""></button>
-        <img class="cabecalho-logo-inicial" src="../Style/Imagens/Eptran-logoOFICIAL.png">
-        <button id="botao-login-inicio">Login</button>
-        <button id="botao-cadastro-inicio">Cadastro</button>
-</section>
-    <section>
-        <img src="" id="acessibilidade-icon">  
-        <div> <!-- Jogo Pratico-->
-            <h1>Jogo pratico - <font color="#fff02c">SINALIZAÇÕES</font> </h1> 
+        <a href="tela-inicial.html"><img class="cabecalho-logo-inicial" src="../Style/Imagens/Eptran-logoOFICIAL.png"></a>
+        <div class="OpcoesHeader">
+            <button class="Apostila">Apostila</button>
+            <button class="downloadIcone"></button>
+            <button class="UsuarioHeader"></button>
+        </div>
+    </section>
+    <section id="iniciais-sec">
+        <div id="div-jogo-iniciais"> <!-- Jogo Pratico-->
+            <h1 class="texto-iniciais">Jogo pratico - <font color="#fff02c">SINALIZAÇÕES</font> </h1> 
+            <iframe id="video1" src="../Style/Videos/VIDEO-2024-02-02-15-11-38.mp4"></iframe>
             <img src="">
         </div>
         <div> <!-- Video Transito-->
-            <h1>Introdução ao Transito</h1>
+            <h1 class="texto-iniciais">Introdução ao Transito</h1>
             <div id="div-video1">
-                <iframe id="video1" height="150" width="100" src="../Style/Videos/VIDEO-2024-02-02-15-11-38.mp4"></iframe>
+                <iframe id="video1" src="../Style/Videos/VIDEO-2024-02-02-15-11-38.mp4"></iframe>
             </div>
         </div>
-
     </section>
+    <div>
+        <button id="acessibilidade-icon"></button> 
+    </div>
 </body>
 </html>
