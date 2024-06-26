@@ -82,6 +82,7 @@
 
 .cabecalho-tela-inicial { 
   justify-content: center;
+  background-color:#023859;
  
 }
 
@@ -251,6 +252,7 @@
   text-decoration: underline;
   font-size: 3vmin;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
   color:#13B7EB;
   position: absolute; 
 }
@@ -530,11 +532,11 @@
   height: 100%;
   width: 100%;
   max-width: 15vmin;
-  margin-left: 7vmin;
   margin-top: 3vmin;
+  margin-left:auto;
+  margin-right: auto;
 }
 .botoes-series {
- 
   max-width: 15vmin;
   background-color:transparent;
   border-style: none;
@@ -581,7 +583,6 @@
   border-radius: 2vmin;
   margin-bottom: 5vmin;
 }  
-
 
 
 
@@ -660,7 +661,7 @@
   background-color:#023859 ;
   height: 20vmin;
   margin: 4vmin;
-  width: 60vmin;
+  width:48vmin;
   border: #023859;
   border-style: solid;
   border-radius: 8vmin;
@@ -678,7 +679,6 @@
   margin-bottom: 5vmin;
 }
 #botao_verde_iniciais{
-  margin-left: 5vmin;
 }
 
 /* SERIES FINAIS ----------------------------------------------------------------------------------------------------------------*/
@@ -688,6 +688,7 @@
   background-color: #516289;
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
 
 .downloadIcone {
@@ -701,11 +702,10 @@
   border-style: none;
 }
 
-#VideoExemplo {
+#Video-Exemplo-texto {
+  margin-left: 12vmin;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin:0;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 2                                                                                                                                                                                                                                                                                                                                                                                                                       55, 255);
 }
 
 .Apostila {
@@ -716,6 +716,7 @@
   background-color:transparent;
   margin-right: 4vmin;
   border-style: none;
+  text-decoration-line:underline;
   color: white;
   font-size: large;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -733,15 +734,76 @@
 }
 
 #div-video-principal {
-  display: flex;
-  justify-content: center;
-  iframe {
-    height: 100%;
-    max-height: 50vmin;
-    max-width: 80vmin;
-    width: 100%;
-  }
+  width: 100%;
+  display:flex;
+  justify-content:center;
 }
-#outros-videos {
+
+#video-principal{
+  
+}
+
+#sub-videos {
   text-align: center;
+  padding-top:5vmin;
+}
+
+#jogo-finais-fora{
+  width: 100%;
+  max-width: 89vmin;
+  height: 60vmin;
+  background-color: red;
+  margin-left: auto;
+  margin-right:  auto;
+
+  border: black;
+  border-style: solid;
+  border-width: 0.5vmin;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#jogo-finais-dentro{
+  width: 100%;
+  max-width: 89vmin;
+  max-height: 10vmin;
+  background-color: blue;
+  margin-left: auto;
+  margin-right:  auto;
+
+  text-align: top;
+  border: black;
+  border-style: solid;
+  border-width: 0.5vmin;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*ENSINO MEDIO ------------------------------------------------------------------------------------------------------------------------------*/
+#texto-aula {
+  background-color: rgb(11, 11, 114);
+  width: 40vmin;
+  max-height: 36vmin;
+}
+#div-video-texto {
+  width: 85vmin;
+  height: 50vmin;
+  margin-left: 5vmin;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2vmin;
+  background-color: black;
+  padding: 1vmin;
+}
+
+#aulas-ensino-medio {
+  text-align: center;
+}
+#jogo-simulador {
+  text-align: center;
+}
+#div-jogo {
+  width: 85vmin;
+  background-color: black;
+  height: 50vmin;
+  margin-left: 5vmin;
 }
